@@ -1,0 +1,26 @@
+.container {
+  width: 80%;
+  text-align: center;
+  /* background-color: blue; */
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-list-item {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-container > input {
+  width: 100%;
+}
